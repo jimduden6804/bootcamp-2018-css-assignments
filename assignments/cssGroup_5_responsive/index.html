@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery</title>
+</head>
+<body>
+<h1>Responsive Gallery</h1>
+<h5>
+    Erstellt eine Datei "style.css" und referenziert diese im "Head" eurer index.html.
+    <br>Im "body" der index.html sollt ihr keine Änderungen vornehmen.
+    <br>Responsives Webdesign ermöglicht und eine Seite für alle möglichen Geräte zu erstellen.
+    Dabei nutzen wir DIPs (Device Independant Pixels), die Größe von Elementen zu definieren und Breakpoints zu setzten.
+    Diese sind bereits durch das meta-tag im head implementiert.
+    Breakpoints definieren Grenzen bei der Displaygröße, ab der die Elemente anders angezeigt werden.
+    <br>Nutzt zum Nachschlagen bitte nur diesen
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Link</a>
+    , da ihr fertige Lösungen sicher schnell ergooglen könnt, davon aber keinen Mehrwert habt.
+</h5>
+<p>Im folgenden seht ihr eine "Gallerie". Wir wollen dafür sorgen, dass mobile Geräte (Breakpoint 400px) nur 2 und
+    große Monitore (Breakpoint 800px) 4 Elemente in einer Reihe angezeigt bekommen.</p>
+<p>
+    Zuerst müssen wir aber Ordnung schaffen und dafür sorgen, dass alle Bilder maximal eine Breite von 100% haben.
+</p>
+<p>
+    Implementiert nun das Grid. Wir arbeiten von klein (Breakpoint S) nach groß (Breakpoint L), also starten wir mit
+    einem Zwei-Spalten-Grid. Denkt dabei auch an die Elemente.
+</p>
+<p>
+    Nun können wir die Breakpoints bauen und darin die Anzahl der Spalten anpassen.
+</p>
+<h3>Optionale Aufgabe -> GEHEIM !! </h3>
+<div id="geheimaufgabe" style="display: none">
+    <p>
+        Überlegt euch weitere Anpassungen bei den Breakpoints. Z.B. sollte die Gallery nicht endlos in die Breite
+        wachsen.
+        Vielleicht möchten wir auch Abstände anpassen oder Farben anpassen. Brauchen wir mehr oder andere Breakpoints?.
+        Seid
+        kreativ und begründet eure Anpassungen.
+    </p>
+</div>
+<div class="imageGallery">
+    <div class="galleryElement">
+        <img src="images/img_1.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_2.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_3.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_4.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_5.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_6.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_7.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_8.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_9.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_10.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_11.jpg" alt="someAlt">
+    </div>
+    <div class="galleryElement">
+        <img src="images/img_12.jpg" alt="someAlt">
+    </div>
+</div>
+
+</body>
+</html>
